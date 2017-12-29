@@ -86,3 +86,33 @@ margin: .67em 0;
 }
 
 /* Supporting Section */
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+/* Service Section */
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+img {
+  border-style: none;
+}
+
+.service img {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+    width: 3.5rem;
+}
